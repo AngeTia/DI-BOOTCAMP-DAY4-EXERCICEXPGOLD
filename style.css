@@ -1,0 +1,50 @@
+
+/* Attenuer la luminosité d'une image*/
+#first_section{
+    padding: 25px;
+    box-sizing: 25px;
+}
+i{
+    text-align: center;
+}
+li:hover{
+    color: white;
+    font-size: 15px;
+}
+.overlay{
+    position : absolute;
+    top : 0;
+    left : 0;
+    bottom: 0;
+    right : 0;
+    background : rgba(0,0,0,0.5);
+}
+.home{
+    position: relative;
+    height: 500px;
+    background-image: url("img/Desk.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.navbar-brand, .nav-link{
+    color: white !important;
+    font-size: 20px;
+}
+.page{
+    width: 70%;
+    color: blue;
+    margin: 100px auto;
+    font-size: 20px;
+}
+h3 {
+    font-size: 30px;
+}
+/* centrer verticalement*/
+.home .home-content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
